@@ -1,12 +1,12 @@
-🚚 Delivery Scheduling Optimization — Operations Research Project
-🎓 PGDM — AI & Data Science
+**🚚 Delivery Scheduling Optimization — Operations Research Project**
+**🎓 PGDM — AI & Data Science
 🧭 Domain: Operations Research (Optimization Model)
-📖 Project Overview
+📖 Project Overview**
 
 This project applies Linear Programming (LP) using Python (PuLP) to optimize delivery scheduling for an e-commerce logistics dataset.
 The goal is to minimize total delivery cost while considering vehicle capacity constraints and varying delivery demands.
 
-🎯 Objective
+**🎯 Objective**
 
 Develop a delivery optimization model that:
 
@@ -16,7 +16,7 @@ Assigns each delivery to an optimal vehicle
 
 Respects delivery load capacity per vehicle
 
-🧰 Tools & Libraries
+**🧰 Tools & Libraries**
 
 Python
 
@@ -26,8 +26,8 @@ Geopy — Calculate distances from coordinates
 
 Matplotlib — Visualization
 
-🧱 Methodology
-Step 1 — Data Preparation
+**🧱 Methodology**
+**Step 1 — Data Preparation**
 
 Dataset: amazon_delivery.csv (from Kaggle)
 Columns used:
@@ -42,7 +42,7 @@ Delivery_Time — Time taken for each delivery
 
 Vehicle — Type of vehicle used
 
-Step 2 — Derived Feature
+**Step 2 — Derived Feature**
 
 Distance_km: Computed using geographic coordinates (Haversine/Geodesic method)
 
@@ -152,7 +152,7 @@ i
 	​
 
 )≤VehicleCapacity
-🧮 Results
+**🧮 Results**
 
 Optimal vehicle assignments for each delivery
 
@@ -160,15 +160,15 @@ Total minimized cost of deliveries
 
 Balanced workload across vehicles
 
-Visualization:
+**Visualization:**
 Bar chart comparing total distance covered per vehicle.
 
-📦 Deliverables
+**📦 Deliverables**
 File	Description
 delivery_optimization.ipynb	Jupyter Notebook with full code
 data.csv	Cleaned dataset for analysis
 README.md	Project documentation
-🧠 Learning Outcome
+**🧠 Learning Outcome**
 
 Understand linear programming formulation
 
@@ -176,16 +176,15 @@ Apply optimization in logistics
 
 Explore real-world constraint modeling using Python tools
 
-📊 Example Output
-✅ Optimal Delivery Assignments (first 10):
+**📊 Example Output**
+**✅ Optimal Delivery Assignments (first 10):**
        Order_ID      Vehicle  Distance_km  Demand
 0  ialx566343618     scooter        2.83     80.0
 1  akqg208421122  motorcycle        9.13    100.0
 ...
 
 💰 Estimated Total Delivery Cost: ₹4325.50
-
-🧩 Future Enhancements
+****🧩 Future Enhancements****
 
 Include traffic and weather impact
 
